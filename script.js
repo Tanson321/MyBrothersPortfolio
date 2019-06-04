@@ -1,3 +1,5 @@
+
+
 var news = document.getElementById('news'); 
 var profile = document.getElementById('profile'); 
 var portrait = document.getElementById('portrait'); 
