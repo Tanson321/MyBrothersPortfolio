@@ -26,6 +26,9 @@ function colorPickerNews(){
       i++;
     news.style.background  = 'rgb('+colorArray+')';
   }
+  $('.wrapper-news').ready(function(){
+    $('.wrapper-news').css("box-shadow","0 0 8px 0px "+news.style.background+"")
+  })
   };
    
 function colorPickerProfile(){
@@ -38,6 +41,9 @@ function colorPickerProfile(){
       i++;
     profile.style.background  = 'rgb('+colorArray+')';
   }
+  $('.wrapper-profile').ready(function(){
+    $('.wrapper-profile').css("box-shadow","0 0 8px 0px "+profile.style.background+"")
+  })
   };
 
   
@@ -51,6 +57,9 @@ function colorPickerProfile(){
       i++;
     portrait.style.background  = 'rgb('+colorArray+')';
   }
+  $('.wrapper-portrait').ready(function(){
+    $('.wrapper-portrait').css("box-shadow","0 0 8px 0px "+portrait.style.background+"")
+  })
   };
 
 function colorPickerFooter(){
@@ -63,4 +72,7 @@ function colorPickerFooter(){
       i++;
     footer.style.background  = 'rgb('+colorArray+')';
   }
+  $('.wrapper-footer').ready(function(){
+    $('.wrapper-footer').css("box-shadow","0 0 8px 0px "+footer.style.background+"")
+  })
   };
