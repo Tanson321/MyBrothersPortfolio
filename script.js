@@ -1,5 +1,3 @@
-
-
 var news = document.getElementById('news'); 
 var profile = document.getElementById('profile'); 
 var portrait = document.getElementById('portrait'); 
@@ -24,14 +22,14 @@ function colorPickerNews(){
       var num =Math.floor( Math.random() * (max + 1 - min) ) + min ;
       colorArray.push(num);
       i++;
-    news.style.background  = 'rgb('+colorArray+')';
-  }
-  $('.wrapper-news').ready(function(){
-    $('.wrapper-news').css("box-shadow","0 0 8px 0px "+news.style.background+"")
+      news.style.background  = 'rgb('+colorArray+')';
+    }
+      $('.wrapper-news').ready(function(){
+        $('.wrapper-news').css("box-shadow","0 0 8px 0px "+news.style.background+"")
   })
   };
    
-function colorPickerProfile(){
+  function colorPickerProfile(){
     var i = 0;
     var colorArray = [];
    
@@ -39,15 +37,15 @@ function colorPickerProfile(){
       var num =Math.floor( Math.random() * (max + 1 - min) ) + min ;
       colorArray.push(num);
       i++;
-    profile.style.background  = 'rgb('+colorArray+')';
-  }
-  $('.wrapper-profile').ready(function(){
-    $('.wrapper-profile').css("box-shadow","0 0 8px 0px "+profile.style.background+"")
+      profile.style.background  = 'rgb('+colorArray+')';
+    }
+    $('.wrapper-profile').ready(function(){
+      $('.wrapper-profile').css("box-shadow","0 0 8px 0px "+profile.style.background+"")
   })
   };
 
   
-  function colorPickerPortrait(){
+function colorPickerPortrait(){
     var i = 0;
     var colorArray = [];
    
@@ -56,7 +54,7 @@ function colorPickerProfile(){
       colorArray.push(num);
       i++;
     portrait.style.background  = 'rgb('+colorArray+')';
-  }
+    }
   $('.wrapper-portrait').ready(function(){
     $('.wrapper-portrait').css("box-shadow","0 0 8px 0px "+portrait.style.background+"")
   })
@@ -72,7 +70,7 @@ function colorPickerFooter(){
       i++;
     footer.style.background  = 'rgb('+colorArray+')';
   }
-  $('.wrapper-footer').ready(function(){
-    $('.wrapper-footer').css("box-shadow","0 0 8px 0px "+footer.style.background+"")
+  $('#footer').ready(function(){
+    $('#footer').css("box-shadow","0 0 8px 0px "+footer.style.background+"")
   })
   };
