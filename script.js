@@ -26,7 +26,7 @@ function colorPickerNews(){
     }
       $('.wrapper-news').ready(function(){
         $('.wrapper-news').css("box-shadow","0 0 8px 0px "+news.style.background+"")
-  })
+  });
   };
    
   function colorPickerProfile(){
@@ -74,3 +74,4 @@ function colorPickerFooter(){
     $('#footer').css("box-shadow","0 0 8px 0px "+footer.style.background+"")
   })
   };
+
