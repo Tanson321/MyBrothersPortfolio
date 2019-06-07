@@ -17,10 +17,10 @@ window.addEventListener('load',colorPickerFooter,false);
 
 $('.top-image').ready(function(){
   var images = [
-    '0.jpg',
-    '1.jpg',
-    '2.jpg',
-    '3.jpg'
+    'images/0.JPG',
+    'images/1.JPG',
+    'images/2.JPG',
+    'images/3.JPG'
   ];
   var randomImages = images[Math.floor(Math.random() * images.length)];
 

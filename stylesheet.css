@@ -38,13 +38,16 @@ a{
 }
 
 .title{
+    height:52px;
     float:left;
     padding :0px 15px 0px 15px;
 }
 
 .title h1{
-    font-family: 'M PLUS 1p', sans-serif;
-    font-size:20px;
+    margin: 16.5px 0 16.5px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: normal;   
 }
 
 .menu{
@@ -57,7 +60,7 @@ a{
     width:100%;
     height:100px;
     margin: 0 auto;
-    background-image:url(0.JPG);
+    background-image:url(images/0.JPG);
     background-size:cover;
     color:white;
     padding: 180px 0px 100px 0px;
@@ -182,21 +185,21 @@ footer h2{
       width: 100%;
       height: auto;
       margin: 0 auto;
-      background-image:url(0-longer.JPG)!important;
+      background-image:url(images/0-longer.JPG)!important;
       background-size:cover;
       color:white;
     }
 
     .top-child-news{
-        background-image:url(1-longer.JPG)!important;
+        background-image:url(images/1-longer.JPG)!important;
     }
 
     .top-child-profile{
-        background-image:url(2-longer.JPG)!important;
+        background-image:url(images/2-longer.JPG)!important;
     }
 
     .top-child-portrait{
-        background-image:url(3-longer.JPG)!important;
+        background-image:url(images/3-longer.JPG)!important;
     }
 
     .wrapper-news{
@@ -251,6 +254,10 @@ footer h2{
         width:auto;
         height:auto;
         color:white;
+    }
+
+    .title{
+        text-align: center;
     }
 
 }
