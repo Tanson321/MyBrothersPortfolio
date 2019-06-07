@@ -14,6 +14,19 @@ window.addEventListener('load',colorPickerPortrait,false);
 window.addEventListener('load',colorPickerFooter,false);
 
 
+
+$('.top-image').ready(function(){
+  var images = [
+    '0.jpg',
+    '1.jpg',
+    '2.jpg',
+    '3.jpg'
+  ];
+  var randomImages = images[Math.floor(Math.random() * images.length)];
+
+  $('.wrapper-top').css("background-image","url("+randomImages+")");
+});
+
 function colorPickerNews(){
     var i = 0;
     var colorArray = [];
@@ -75,3 +88,7 @@ function colorPickerFooter(){
   })
   };
 
+
+
+
+  

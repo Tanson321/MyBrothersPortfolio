@@ -52,11 +52,12 @@ a{
     width:100%;
     height:100px;
     margin: 0 auto;
-    background-image:url(top-image.JPG);
+    background-image:url(0.JPG);
     background-size:cover;
     color:white;
     padding: 180px 0px 100px 0px;
 }
+
 
 @keyframes FadeIn {
     0% {
@@ -68,7 +69,7 @@ a{
 }
 
 .wrapper-top{
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-name: FadeIn;
     animation-iteration-count: none;
 }
@@ -127,6 +128,16 @@ a{
     color:white;
 }
 
+.child h2{
+    text-align: center;
+}
+
+.child{
+    width:90%;
+    margin: 0 auto;
+    float: none;
+}
+
 footer{
     background-color:rgba(250, 250, 250, 0);
     width:100%;
@@ -136,6 +147,10 @@ footer{
     transition: 1s;
     border-radius:5px;
     clear:left;
+}
+
+.footer-child-page{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
 
 footer h2{
@@ -162,9 +177,21 @@ footer h2{
       width: 100%;
       height: auto;
       margin: 0 auto;
-      background-image:url(top-image-longer.JPG);
+      background-image:url(0-longer.JPG)!important;
       background-size:cover;
       color:white;
+    }
+
+    .top-child-news{
+        background-image:url(1-longer.JPG)!important;
+    }
+
+    .top-child-profile{
+        background-image:url(2-longer.JPG)!important;
+    }
+
+    .top-child-portrait{
+        background-image:url(3-longer.JPG)!important;
     }
 
     .wrapper-news{
