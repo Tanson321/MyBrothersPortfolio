@@ -73,7 +73,7 @@ function colorPickerPortrait(){
   })
   };
 
-function colorPickerFooter(){
+/*function colorPickerFooter(){
     var i = 0;
     var colorArray = [];
    
@@ -87,7 +87,7 @@ function colorPickerFooter(){
     $('#footer').css("box-shadow","0 0 8px 0px "+footer.style.background+"")
   })
   };
-
+*/
 
 
 
