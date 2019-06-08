@@ -11,7 +11,7 @@ var max = 255;
 window.addEventListener('load',colorPickerNews,false);
 window.addEventListener('load',colorPickerProfile,false);
 window.addEventListener('load',colorPickerPortrait,false);
-window.addEventListener('load',colorPickerFooter,false);
+//window.addEventListener('load',colorPickerFooter,false);//
 
 
 
