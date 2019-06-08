@@ -34,11 +34,11 @@ a{
     }
   }
   
-  header {
+header {
     animation-duration: 1s;
     animation-name: RightToLeft;
     animation-iteration-count: none;
-  }
+}
 
 .header-margin{
     width:100%;
@@ -47,15 +47,23 @@ a{
 
 .title{
     height:52px;
+    padding :0px 0px 0px 15px;
+}
+
+.fas{
+    color: black;
     float:left;
-    padding :0px 15px 0px 15px;
+    padding-right:5px;
+    padding-top:3.5px;
 }
 
 .title h1{
     margin: 16.5px 0 16.5px 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
-    font-weight: normal;   
+    font-weight: normal;  
+    text-decoration: none; 
+    color:black;
 }
 
 .menu{
@@ -239,6 +247,7 @@ footer{
 }
 
 footer h2{
+    font-family: 'Montserrat', sans-serif;
     padding-top:1%;
     text-align: center;
     color:white;
@@ -384,8 +393,5 @@ footer h2{
         padding-top:0.5px;
     }
 
-    .title{
-        text-align: center;
-    }
 
 }
